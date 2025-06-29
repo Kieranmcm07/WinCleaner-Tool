@@ -46,4 +46,8 @@ WinCleaner is a free, open-source Windows cleanup and maintenance tool by Nokky0
 
 1. Clone or download the repo:  
    ```bash
-   git clone https://github.com/Kieranmcm07/WinCleaner.git
+   git clone https://github.com/Kieranmcm07/WinCleaner.git```
+
+2. (Optional) Install via Chocolatey (coming soon):
+   ```bash
+   choco install wincleaner```
