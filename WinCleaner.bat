@@ -22,7 +22,7 @@ echo [38;2;255;153;0m                                ║        Your system opt
 echo [38;2;255;204;0m                                ║                                                       ║[0m
 echo [38;2;255;255;0m                                ╚═══════════════════════════════════════════════════════╝[0m 
 
-timeout /t 2 >nul
+timeout /t 1 >nul
 
 REM --- More ASCII for the vibes ---
 echo.                                                                                  
@@ -54,7 +54,7 @@ echo [38;2;255;204;0m                                                          
 echo.
 echo [38;2;255;255;0m                                [!] Please respond to the UAC prompt when it appears.[0m
 
-timeout /t 2 >nul
+timeout /t 1 >nul
 
 REM --- Restore original code page (so user's console isn't stuck in UTF-8) ---
 chcp %ORIG_CP% > nul
