@@ -1,6 +1,6 @@
 # WinCleaner
 
-**WinCleaner** is a free, open-source Windows cleanup and maintenance tool by @Nokky.  
+**WinCleaner** is a free, open-source Windows cleanup and maintenance tool by Nokky07 (Kieran).  
 It helps you quickly clean temp files, driver caches, browser caches, suspicious scheduled tasks, and more — all with a stylish, colorized batch interface.
 
 ---
