@@ -1,4 +1,4 @@
-
+<div align="center">
   
 # `WinCleaner`  
 ### The Ultimate Windows Optimization Toolkit  
@@ -15,7 +15,7 @@
                                                                                  
 
   
-
+</div>
 
 ---
 
