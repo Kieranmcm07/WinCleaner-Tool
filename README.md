@@ -86,8 +86,10 @@ Windows Registry Editor Version 5.00
 ```
 
 <div align="center">
-- LEGAL DISCLAIMER: 
-! This tool is for educational purposes only.
-! Author not responsible for system damages.
-! Use with caution on production systems.
+
+> **LEGAL DISCLAIMER:**  
+> This tool is for educational purposes only.  
+> Author not responsible for system damages.  
+> Use with caution on production systems.
+
 </div>
