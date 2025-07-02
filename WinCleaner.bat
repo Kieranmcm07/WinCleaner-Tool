@@ -61,7 +61,7 @@ chcp %ORIG_CP% > nul
 
 REM --- Clean up any old elevation flag ---
 if exist "%temp%\WinCleaner_ELEVATED.flag" del "%temp%\WinCleaner_ELEVATED.flag"
-
+echo clearing elevation flag...
 REM --- Launch the elevated script with UAC ---
 powershell -Command "Start-Process '%~dpn0_Elevated.bat' -Verb RunAs -ArgumentList '/UAC'"
 
