@@ -66,7 +66,7 @@ REM --- Launch the elevated script with UAC ---
 powershell -Command "Start-Process '%~dpn0_Elevated.bat' -Verb RunAs -ArgumentList '/UAC'"
 
 REM --- Wait for the elevated script to signal completion (via flag file) ---
-set "max_checks=15"
+set "max_checks=30"  REM Increased from 15 to 30 (6 seconds total)
 set "check_interval=200"
 for /L %%i in (1,1,%max_checks%) do (
     ping -n 1 -w %check_interval% 127.0.0.1 > nul
